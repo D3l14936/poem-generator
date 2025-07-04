@@ -42,6 +42,12 @@ form {
   background-color: lavender;
   border: 1px solid white;
   font-family: "Delius", cursive;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.submit-button:hover {
+  background-color: rgb(147, 129, 186);
+  cursor: pointer;
 }
 .poem {
   line-height: 1.5;
