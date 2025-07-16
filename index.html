@@ -4,17 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Barrio&family=Delius&display=swap"
       rel="stylesheet"
     />
-    <title>AI poem generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Haiku generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI poem generator</h1>
+        <h1>Haiku generator</h1>
       </header>
 
       <main>
@@ -24,10 +31,11 @@
             placeholder="What should your poem be about?"
             autocomplete="off"
             class="prompt"
+            id="user-input"
           />
           <input type="submit" value="submit" class="submit-button" />
         </form>
-        <div class="poem" id="poem">The poem shall go here</div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         Coded by Delia Lothyova | open-sourced on

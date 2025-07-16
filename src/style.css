@@ -1,24 +1,25 @@
 body {
-  background-color: lavender;
+  background-color: #f1eaff;
   font-family: "Delius", cursive;
 }
 
 .container {
-  margin: 120px auto;
-  max-width: 600px;
+  margin: 110px auto;
+  max-width: 500px;
   background: white;
   text-align: center;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.097) 0px 50px 100px -10px,
     rgba(0, 0, 0, 0.178) 0px 30px 60px -10px,
     rgba(10, 37, 64, 0.182) 0px -2px 6px 0px inset;
+  padding: 12px;
 }
 
 h1 {
   text-align: center;
   padding: 25px;
-  font-family: "Delius", cursive;
-  background-image: linear-gradient(to bottom, #432e7c, rgb(177, 153, 211));
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(to bottom, #bc7af9, #f7e6ff9a);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -30,8 +31,8 @@ form {
 
 .prompt {
   padding: 14px;
-  border: 2px solid lavender;
-  width: 38%;
+  border: 2px solid #dcbfff;
+  width: 50%;
   border-radius: 15px;
   font-family: "Delius", cursive;
 }
@@ -39,20 +40,23 @@ form {
   margin-left: 5px;
   padding: 14px;
   border-radius: 15px;
-  background-color: lavender;
+  background-color: #bc7af9;
   border: 1px solid white;
   font-family: "Delius", cursive;
   opacity: 0.6;
   transition: 0.3s;
 }
 .submit-button:hover {
-  background-color: rgb(147, 129, 186);
+  background-color: #dcbdf8;
   cursor: pointer;
 }
 .poem {
   line-height: 1.5;
+  max-width: 300px;
+  margin: 15px AUTO;
 }
 footer {
   font-size: 12px;
   padding: 20px;
+  color: #bc7af9;
 }
