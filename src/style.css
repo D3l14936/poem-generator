@@ -1,28 +1,22 @@
 body {
-  background-color: #f1eaff;
+  background-color: #f4ebd6c4;
   font-family: "Delius", cursive;
 }
 
 .container {
   margin: 110px auto;
   max-width: 500px;
-  background: white;
+  background: #f4ebd6;
   text-align: center;
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.097) 0px 50px 100px -10px,
-    rgba(0, 0, 0, 0.178) 0px 30px 60px -10px,
-    rgba(10, 37, 64, 0.182) 0px -2px 6px 0px inset;
-  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 h1 {
   text-align: center;
   padding: 25px;
   font-family: "Montserrat", sans-serif;
-  background-image: linear-gradient(to bottom, #bc7af9, #f7e6ff9a);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
+  color: #97a55dd2;
 }
 
 form {
@@ -31,7 +25,7 @@ form {
 
 .prompt {
   padding: 14px;
-  border: 2px solid #dcbfff;
+  border: 2px solid #d98c8b;
   width: 50%;
   border-radius: 15px;
   font-family: "Delius", cursive;
@@ -40,14 +34,16 @@ form {
   margin-left: 5px;
   padding: 14px;
   border-radius: 15px;
-  background-color: #bc7af9;
+  background-color: #d98c8b;
+  color: white;
   border: 1px solid white;
   font-family: "Delius", cursive;
   opacity: 0.6;
   transition: 0.3s;
 }
 .submit-button:hover {
-  background-color: #dcbdf8;
+  background-color: #8b2634;
+  color: #f8b0af;
   cursor: pointer;
 }
 .poem {
@@ -58,5 +54,9 @@ form {
 footer {
   font-size: 12px;
   padding: 20px;
-  color: #bc7af9;
+  color: #97a55ddd;
+}
+
+a {
+  color: #c17d7c;
 }
