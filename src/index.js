@@ -18,12 +18,12 @@ function generatePoem(event) {
   let prompt = `Generate a haiku about ${userInput.value}, separate lines with <br>, please.`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&key=${apiKey}`;
 
-  // show loading message
+  // show "generating" message
   let poemContainer = document.querySelector("#poem");
-  poemContainer.innerHTML = "Loading...";
+  poemContainer.innerHTML = "Generating...";
 
   axios.get(apiUrl).then(displayPoem);
 }
-
+// submit button
 let poemElement = document.querySelector("#poem-form");
 poemElement.addEventListener("submit", generatePoem);
